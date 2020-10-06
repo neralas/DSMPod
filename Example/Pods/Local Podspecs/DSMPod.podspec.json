@@ -1,0 +1,24 @@
+{
+  "name": "DSMPod",
+  "version": "0.1.0",
+  "summary": "DSMPod es una pequeña prueba para probar libreria externa cocopoad.",
+  "description": "DSMPod es una pequeña prueba para probar libreria externa cocopoad. Para testing.",
+  "homepage": "https://github.com/neralas/DSMPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "neralas": "dsanchezmoreno@deloitte.es"
+  },
+  "source": {
+    "git": "https://github.com/neralas/DSMPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DSMPod/Classes/**/*",
+  "swift_versions": "5",
+  "swift_version": "5"
+}

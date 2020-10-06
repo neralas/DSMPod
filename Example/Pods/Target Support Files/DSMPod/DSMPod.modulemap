@@ -1,0 +1,6 @@
+framework module DSMPod {
+  umbrella header "DSMPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

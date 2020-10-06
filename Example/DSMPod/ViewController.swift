@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import DSMPod
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        DSMHellow.printHello()
         // Do any additional setup after loading the view, typically from a nib.
     }
 

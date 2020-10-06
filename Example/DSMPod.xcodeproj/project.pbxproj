@@ -40,10 +40,10 @@
 		607FACE51AFB9204008FA782 /* DSMPod_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSMPod_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		63F6994F24B0255CB63A1442 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		63F6994F24B0255CB63A1442 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6D5A9E10412C7BB5E19054B6 /* Pods-DSMPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSMPod_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DSMPod_Tests/Pods-DSMPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		85DD7060493298564E9634C9 /* DSMPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DSMPod.podspec; path = ../DSMPod.podspec; sourceTree = "<group>"; };
-		A69509A153613F33C78872B3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		85DD7060493298564E9634C9 /* DSMPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DSMPod.podspec; path = ../DSMPod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A69509A153613F33C78872B3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B47F773400330CBF3ECDC58E /* Pods-DSMPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSMPod_Example.release.xcconfig"; path = "Target Support Files/Pods-DSMPod_Example/Pods-DSMPod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D2039A38AE657C899024E8BB /* Pods-DSMPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSMPod_Example.debug.xcconfig"; path = "Target Support Files/Pods-DSMPod_Example/Pods-DSMPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E5BC6AE86D4374E192B98CDA /* Pods_DSMPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DSMPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -147,7 +147,6 @@
 				6D5A9E10412C7BB5E19054B6 /* Pods-DSMPod_Tests.debug.xcconfig */,
 				10C1B3E23A659866CC3FBA5A /* Pods-DSMPod_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -480,6 +480,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DSMPod/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 0.1.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -495,6 +496,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DSMPod/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 0.1.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
